@@ -48,14 +48,7 @@ function App() {
     CONVERTER
   </h1>
 </div>
-
-
-
-
-
-    
-  
-          <div className="max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
+           <div className="max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
               <form
                   onSubmit={(e) => {
                       e.preventDefault();
