@@ -4,6 +4,8 @@ import Logo from "./Logo";
 import Container from './container/Container'
 import LogoutBtn from '../components/Header/LogoutBtn'
 import RTE from "./RTE";
+import Signup from './Signup'
+import Login from './Login'
 
 export {
     Header,
@@ -11,6 +13,8 @@ export {
     Logo,
     Container,
     LogoutBtn,
-    RTE
+    RTE,
+    Signup,
+    Login
 
 }
