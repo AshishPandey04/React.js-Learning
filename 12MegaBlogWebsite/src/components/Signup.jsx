@@ -24,7 +24,7 @@ function Signup() {
             }
           }
         } catch (error) {
-            setError(error.message)
+            setError(error.message || "Something went wrong. Please try again."); 
             
         }
 
@@ -63,6 +63,7 @@ function Signup() {
                         matchPattern: (value)=>/^([\w\.\-_]+)?\w+@[\w-_]+(\.\w+){1,}$/.test(value) || "Email address must be valid address"
                     }
                 })}/>
+                
                 <Input label="Password:" type="password" placeholder="Enter your password" {...register("password",{
                     required:true
                 })
